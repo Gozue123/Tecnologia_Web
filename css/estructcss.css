@@ -1,0 +1,12 @@
+body{
+    font-family: 'Courier New', courier;
+    font-size:  18px;
+    color: white;
+    height: 800px;
+    background-image: url("https://i.pinimg.com/736x/77/42/0d/77420df3f9e33db5b79ee25455d3340e.jpg");
+    background-size: cover;
+    background-size: 25rem;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
