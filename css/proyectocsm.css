@@ -29,3 +29,56 @@ footer{
 .csm a{
     padding:10px;
 }
+
+aside{
+    color:#e4d2d0;
+    background:#161415;
+    width: 25%;
+    float: left;
+    line-height: 25px;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+}
+
+.aside1 {
+
+    padding: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+main{
+    padding: 10px;
+    background: #554a4d;
+    width: 72%;
+    float: right;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+
+}
+header{
+
+    background: #423b3b;
+    width: 100%;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+
+}
+
+ header nav a{
+
+    text-decoration:none;
+    width: 100%;
+    display: inline-block;
+    padding:20px;
+    width: 200px;
+    color:rgb(238, 225, 225);
+    font-size:1.2em;
+    text-align: center; 
+ }
+header nav a:hover{
+
+    background: #727071;
+}
