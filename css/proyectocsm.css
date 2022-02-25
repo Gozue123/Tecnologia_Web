@@ -10,13 +10,15 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-footer{
-    background: #58423e;
+.redes{
+    background: #4d4746;
     width: 100%;
     float: left;
     font-size: 1.3em;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
 }
 .csm{
     text-align: center;
@@ -78,6 +80,9 @@ header{
     font-size:1.2em;
     text-align: center; 
  }
+.navfoo{
+    display: inline-block;
+}
 header nav a:hover{
 
     background: #727071;
