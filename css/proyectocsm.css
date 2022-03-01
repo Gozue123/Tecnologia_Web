@@ -17,6 +17,7 @@ body{
     font-size: 1.3em;
     text-align: center;
     padding: 30px;
+    border-radius: 22px;
     border-style: double ;
     border-color: rgb(14, 14, 15);
 }
@@ -31,7 +32,6 @@ body{
 .csm a{
     padding:10px;
 }
-
 aside{
     color:#e4d2d0;
     background:#161415;
