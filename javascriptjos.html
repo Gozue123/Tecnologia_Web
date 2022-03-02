@@ -98,7 +98,7 @@
           function fechaactual(){
            var fecha =new Date();
            var month = fecha.getUTCMonth()+1;
-           var day = fecha.getUTCDate()-1;
+           var day = fecha.getUTCDate();
            var year = fecha.getUTCFullYear();
            document.getElementById('resultad').value=(day+"/"+month+"/"+year);    
           }   
