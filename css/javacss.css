@@ -1,11 +1,20 @@
 .flex-container {
     display: flex;
-    background-color: DodgerBlue;
+    background-color: rgb(86, 100, 114);
   }
   
   .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #9e8c8c;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+  }
+  .ttl{
+    color: brown;
+  }
+  body{
+    background-color: rgb(38, 65, 65);
+  }
+  .flex1{
+width: 25%;
   }

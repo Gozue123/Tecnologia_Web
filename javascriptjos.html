@@ -8,26 +8,31 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>PRACTICA 3: JavaScript</h1>
+    <h1><center>PRACTICA 3: JavaScript</center></h1>
 
 <div class="flex-container">
-  <div>  
+  <div class="flex1">  
+      <h4 class="ttl">Ejercicio 1</h4>
   <P> -10°C – 15 °C Frio<BR>
        16°C – 25 °C Templado<BR>
        26°C – 40 °C Calor </P>
+       <label>Ingrese Los Grados:<br></label><input id="num" type="text"><br>
+       <label>El Clima Esta:<br></label><input id="result" type="text" readonly="">  
+       <input type="button" class="btn" onclick="grados()" value="Calcular">
     <script>
 
-      grados(22);
+     
 
-     function grados(num){        
+     function grados(){     
+         var num =Number(document.getElementById('num').value);
         if (num>=-10 && num<=15){
-            document.write("Clima Frio"+'<br>');
+            document.getElementById('result').value=("Clima Frio");
         }else{
         if (num>=16 && num<=25){
-            document.write("Clima Templado"+'<br>');
+            document.getElementById('result').value=("Clima Templado")
         }else{
         if (num>=26 && num<=40){
-            document.write("Clima Calor"+'<br>');
+            document.getElementById('result').value=("Clima Calor")
         }
             }
             }
@@ -35,20 +40,70 @@
      }
        </script>
   </div>
-  <div>
-  <script>
-          suma(8,10);
+  <div class="flex1">
 
-    function suma(num1,num2)
-    {
-        let sum = num1+num2;
-        document.write('la suma es: '+sum);
-        document.write('<br>');
+    <h4 class="ttl">Ejercicio 2</h4>
+       <label>Ingrese Un Numero:<br></label><input id="n" type="text"><br>
+       <label>El Factorial Es:<br></label><input id="resulta" type="text" readonly="">  
+       <input type="button" class="btnn" onclick="factorial()" value="Calcular">
+      <script>
+          function factorial()
+          {
+            var n =Number(document.getElementById('n').value);
+            var fact =1;
+            for (var i = 1; i <= n; i++)
+            {
+              fact *= i;
+            }
+            document.getElementById('resulta').value=fact;
+           
+          }
+      </script>
+  </div>  
+  <div class="flex1">
+    <h4 class="ttl">Ejercicio 3</h4>
+    <p>FIZZ BUZZ</p>
+      <script>  
+         fizzbuzz(100);
+
+      function fizzbuzz(n)
+      { 
+          for(  i=1;i<=n;i++){
+        if (i%3==0 && i%5==0){
+            document.write(i+".-"+"FIZZBUZZ"+'<br>');
+        }else{
+        if (i%3==0){
+            document.write(i+".-"+"FIZZ"+'<br>')
+        }else{
+        if (i%5==0){
+            document.write(i+".-"+"BUZZ"+'<br>');
+        }
+        else{
+            document.writeln(i +".-"+"<br>");
+             }
+            }
+        }
     }
-   </script>
-  </div>
-  <div>3</div>  
-  <div>4</div>  
+      }
+      </script>
+  </div> 
+  <div class="flex1">    
+    <h4 class="ttl">Ejercicio 4</h4>
+    
+       <labe>La Fecha Actual Es:</labe><input id="resultad" type="text" readonly=""><br>  
+       <input type="button" class="btnn" onclick="fechaactual()" value="Calcular">
+      <script>
+      
+
+          function fechaactual(){
+           var fecha =new Date();
+           var month = fecha.getUTCMonth()+1;
+           var day = fecha.getUTCDate()-1;
+           var year = fecha.getUTCFullYear();
+           document.getElementById('resultad').value=(day+"/"+month+"/"+year);    
+          }   
+      </script>
+  </div> 
 </div> 
 <script>
 </script>  
