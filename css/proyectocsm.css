@@ -9,22 +9,23 @@ body{
     background-repeat: repeat;
     background-position: center center;
     background-attachment: fixed;
+ 
 }
 .redes{
-    background: #4d4746;
-    width: 100%;
+    background: #292524;
+    width: 98%;
     float: left;
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     border-radius: 22px;
     border-style: double ;
     border-color: rgb(14, 14, 15);
 }
 .csm{
     text-align: center;
-    padding-top: 10px;
-    padding-bottom:10px;
+    padding-top: 5px;
+    padding-bottom:5px;
 }
 .csm li{
     display:inline-table;
@@ -34,7 +35,7 @@ body{
 }
 aside{
     color:#e4d2d0;
-    background:#161415;
+    
     width: 25%;
     float: left;
     line-height: 25px;
@@ -42,12 +43,24 @@ aside{
     border-style: double ;
     border-color: rgb(14, 14, 15);
 }
+img.imgss:hover{
+     transform: scale(1.55);
+}
+img.imgss{
+    border-radius: 22px;
+   
+}
+img.imgmenu{
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+}
 
 .aside1 {
 
     padding: 25px;
     font-size: 1.2em;
-    text-align: justify;
+    text-align: left;
 }
 main{
     padding: 10px;
@@ -81,9 +94,49 @@ header{
     text-align: center; 
  }
 .navfoo{
-    display: inline-block;
+text-align: center;
 }
 header nav a:hover{
 
-    background: #727071;
+    background: #b1a4aa;
+    border-radius: 22px;
+}
+a:link{
+    text-decoration: none;
+}
+aside section ul a.textinside:hover{
+    background: #f5eef1;
+    border-radius: 22px;
+}
+img.imginside{
+    border-radius: 22px;
+}
+img.imginside:hover{
+    transform: scale(1.55);
+}
+img.imagend{
+    padding: 10px;
+    width:100%;
+    border-radius: 22px;
+}
+video.videopu:hover{
+    transform: scale(1.08);
+}
+video.videopu{
+    border-radius: 22px;
+    padding: 10px;
+    width:50%;
+    max-width:450px;
+    
+}
+img.imagenpu:hover{
+    transform: scale(1.08);
+}
+img.imagenpu{
+    border-radius: 22px;
+    padding: 10px;
+    width:50%;
+    max-width:450px; 
+    
+
 }
