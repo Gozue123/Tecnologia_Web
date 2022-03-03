@@ -79,11 +79,14 @@ header{
     border-radius: 22px;
     border-style: double ;
     border-color: rgb(14, 14, 15);
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+    
 
 }
 
  header nav a{
-
     text-decoration:none;
     width: 100%;
     display: inline-block;
@@ -140,3 +143,4 @@ img.imagenpu{
     
 
 }
+
