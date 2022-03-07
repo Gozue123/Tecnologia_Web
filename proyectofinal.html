@@ -6,28 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css\proyectofinals.css">
 </head>
-<body  >
-   
+<body>
   <div class="contenedor">
-    <header>
-      
-        <nav ><center>                  
-            <a href="#" style="color:rgb(155, 111, 111);">Informacion</a>
-            <a href="#" style="color:rgb(155, 111, 111);">Beneficios</a>
-            <a href="#" style="color:rgb(155, 111, 111);">Paquetes DNS</a>
-            <a href="#" style="color:rgb(155, 111, 111);">Paquetes empresariales</a>  
-            <img  class="imgmenu "href="#" src="imagenes\dnsmenu.png" width="75" height="75px">    
-           </center>
-           
-        </nav>     
-    </header>
+    <header>    
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"> <img src="imagenes\menuss.png" width="30px" height="30px" alt=""> </label>
     
-            <div >
-                
-                <img class="imagend" src="imagenes\dnsxd.png" alt="dnsxd" width="100%">
+      <nav class="menu">
+        <ul>
+       <li><a href="index.html" >Incio Portal</a></li>
+       <li><a href="#" >Beneficios</a></li>
+       <li><a href="#" >Paquetes DNS</a></li>
+       <li><a href="#">Bibliografia</a> </li> 
+      
+      </ul>         
+   </nav> 
+    </header>
+            <div >      
+               <center><img class="imagend" src="imagenes\dnsxd.png"  ></center> 
             </div>
-        <main><h1><center>SERVIDORES DNS</center></h1>
-            
+        <main><h1><center>SERVIDORES DNS</center></h1>          
             <section>
                 <p>La mayoría de nosotros usamos Internet a diario sin darnos cuenta de la enorme cantidad de sistemas, redes y servidores que operan en la sombra para acercarnos los diferentes servicios online directamente hasta nuestras pantallas.</p>
                 <article>
@@ -36,7 +34,6 @@
                         DNS es una base de datos distribuida cuya función es traducir los nombres de dominio en las redes. Es decir, que se encargan de traducir la solicitud de un nombre, www.tuejemplo.com, en número de IP específicos, 207.142.131.234.
                         </p>
                 </article>
-
                 <article>
                     <h2>¿Para qué sirve el DNS?</h2>
                     <p>Primero debemos entender que todo equipo conectado a la Red y toda página o sitio web tienen asignados una dirección IP (es secuencia numérica que ya hemos mencionado más arriba). Puesto que existen millones de direcciones IP, nos resultaría imposible conocerlas todas, además, nos apañamos mejor para memorizar nombres, por ello existen los dominios y los DNS para traducir esas direcciones IP a un texto.
@@ -56,8 +53,7 @@
                 <section class="aside1">
                     <h3>Qué DNS públicas son las más populares</h3>
                     <br>
-                   <hr>
-                   
+                   <hr>                 
                         <ul class="enlaces">
                         <li><a class="textinside" href="#" style="color:rgb(155, 111, 111);">DNS de Google primaria: 8.8.8.8.</a></li>
                         <li><a class="textinside" href="#" style="color:rgb(155, 111, 111);">DNS de Google secundaria: 8.8.4.4.</a></li>
@@ -71,8 +67,7 @@
                 <section class="aside1">
                   <h3>Los mejores servidores DNS públicos y gratuitos de 2021</h3>
                   <br>
-                 <hr>
-                 
+                 <hr>              
                       <ul class="enlaces">
                       <li><a  href="https://www.opendns.com/"><img  class="imginside" src="imagenes\opendns.jpg" width="50" height="50"></a><a class="textinside" href="https://www.opendns.com/" style="color:rgb(155, 111, 111);">OpenDNS.</a></li>
                       <li><a href="https://www.cloudflare.com/"><img class="imginside"  src="imagenes\floud.png" width="50" height="50"></a><a class="textinside" href="https://www.cloudflare.com/" style="color:rgb(155, 111, 111);">Cloudflare.</a></li>
@@ -83,9 +78,43 @@
                     </ul>
               </section>
             </aside>        
+      </div>  
+      <nav class="navfoo">
+      
+        <a href="https://www.coca-coladebolivia.com.bo"><video class="videopu" src="imagenes\coca.mp4" loop autoplay muted ></video></a><a href="https://www.openenglish.com/"><img  class="imagenpu" src = "imagenes\open.jpg" ></a>
+    
+    </nav>     
             <footer>
-               
-                
+              <section class="ft-main">
+                <div class="ft-main-item">
+                  <h2 class="ft-title">About</h2>
+                  <ul>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+                <div class="ft-main-item">
+                  <h2 class="ft-title">Resources</h2>
+                  <ul>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">eBooks</a></li>
+                    <li><a href="#">Webinars</a></li>
+                  </ul>
+                </div>
+                <div class="ft-main-item">
+                  <h2 class="ft-title">Contact</h2>
+                  <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Advertise</a></li>
+                  </ul>
+                </div>            
+              </section>
+              <section class="footer-redes">
                 <div class="redes">
                     <p>Esta pagina es una explicacion detallada de Servideres Dns</p>
                   <h2>Sigenos en: </h2>
@@ -95,15 +124,8 @@
                   <li><a href="https://twitter.com/?lang=es"><img class="imgss" src="imagenes\twiter.jpeg" width="45" height="45"></a></li>
                   <li><a href="https://www.whatsapp.com/?lang=es"><img class="imgss" src="imagenes\whatsapp.jpeg" width="45" height="45"></a></li>                 
                   </div>
-                  <nav class="navfoo">
-      
-                    <a href="https://www.coca-coladebolivia.com.bo"><video class="videopu" src="imagenes\coca.mp4" loop autoplay muted ></video></a><a href="https://www.openenglish.com/"><img  class="imagenpu" src = "imagenes\open.jpg" ></a>
-                
-                </nav>
-            </footer>
-             
-</div> 
+              </section>
+            </footer>  
 
 </body>
-
 </html>

@@ -118,6 +118,7 @@ img.imagend{
     padding: 10px;
     width:100%;
     border-radius: 22px;
+    max-width:400px;
 }
 video.videopu:hover{
     transform: scale(1.08);
