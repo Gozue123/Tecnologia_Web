@@ -1,0 +1,142 @@
+body{
+    font-family: 'Courier New', courier;
+    font-size:  18px;
+    color: white;
+    height: 800px;
+    background-image: url("https://i.pinimg.com/736x/77/42/0d/77420df3f9e33db5b79ee25455d3340e.jpg");
+    background-size: cover;
+    background-size: 25rem;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+}
+.redes{
+    background: #292524;
+    width: 98%;
+    float: left;
+    font-size: 1em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+}
+.csm{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.csm li{
+    display:inline-table;
+}
+.csm a{
+    padding:10px;
+}
+aside{
+    color:#e4d2d0;
+    
+    width: 25%;
+    float: left;
+    line-height: 25px;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+}
+img.imgss:hover{
+     transform: scale(1.55);
+}
+img.imgss{
+    border-radius: 22px;
+   
+}
+img.imgmenu{
+    padding-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.aside1 {
+
+    padding: 25px;
+    font-size: 1.2em;
+    text-align: left;
+}
+main{
+    padding: 10px;
+    background: #554a4d;
+    width: 72%;
+    float: right;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+
+}
+header{
+
+    background: #423b3b;
+    width: 100%;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+    position:fixed;
+    z-index: 1000;
+    top: 0;
+}
+ header nav a{
+    text-decoration:none;
+    width: 100%;
+    display: inline-block;
+    padding:20px;
+    width: 200px;
+    color:rgb(238, 225, 225);
+    font-size:1.2em;
+    text-align: center; 
+ }
+.navfoo{
+text-align: center;
+}
+header nav a:hover{
+
+    background: #b1a4aa;
+    border-radius: 22px;
+}
+a:link{
+    text-decoration: none;
+}
+aside section ul a.textinside:hover{
+    background: #f5eef1;
+    border-radius: 22px;
+}
+img.imginside{
+    border-radius: 22px;
+}
+img.imginside:hover{
+    transform: scale(1.55);
+}
+img.imagend{
+    padding: 10px;
+    width:100%;
+    border-radius: 22px;
+}
+video.videopu:hover{
+    transform: scale(1.08);
+}
+video.videopu{
+    border-radius: 22px;
+    padding: 10px;
+    width:50%;
+    max-width:400px;
+    
+}
+img.imagenpu:hover{
+    transform: scale(1.08);
+}
+img.imagenpu{
+    border-radius: 22px;
+    padding: 10px;
+    width:50%;
+    max-width:400px; 
+    
+
+}
