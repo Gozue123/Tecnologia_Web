@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(31, 36, 36);
+}
+nav{
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: black;
+}
+.menudx{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+.menudx li:first-child{
+    display: block;
+}
+.menudx li{
+    display: none;
+}
+.menudx a{
+    display: block;
+    color: aliceblue;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+.menudx a:hover{
+    color: #292524;
+    background-color: #e4d2d0;
+    font-weight: 700;
+}
