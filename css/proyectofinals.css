@@ -215,7 +215,7 @@ header label:hover{
     color: #fff;
 
   }
-  /* Sticks footer to bottom */
+
   body {
     display: flex;
     min-height: 100vh;
