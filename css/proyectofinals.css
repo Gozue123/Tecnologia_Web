@@ -1,3 +1,4 @@
+/*cuerpo pagina*/
 body{
     font-family: 'Courier New', courier;
     font-size:  18px;
@@ -10,65 +11,8 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-
-
-aside{
-    color:#e4d2d0;
-    
-    width: 25%;
-    float: left;
-    line-height: 25px;
-    border-radius: 22px;
-    border-style: double ;
-    border-color: rgb(14, 14, 15);
-}
-img.imgss:hover{
-     transform: scale(1.55);
-}
-img.imgss{
-    border-radius: 22px;
-   
-}
-img.imgmenu{
-    padding-top: 15px;
-    padding-left: 15px;
-    text-align: justify;
-}
-.aside1 {
-
-    padding: 25px;
-    font-size: 1.2em;
-    text-align: justify;
-}
-main h1{
-    text-align: center;
-}
-main{
-    padding: 10px;
-    background: #554a4d;
-    width: 72%;
-    float: right;
-    border-radius: 22px;
-    border-style: double ;
-    border-color: rgb(14, 14, 15);
-}
-
 .navfoo{
 text-align: center;
-}
-
-a:link{
-    text-decoration: none;
-}
-aside section ul a.textinside:hover{
-    background: #f5eef1;
-    border-radius: 22px;
-}
-img.imginside{
-    border-radius: 22px;
-}
-img.imginside:hover{
-    transform: scale(1.55);
 }
 img.imagend{
     padding: 10px;
@@ -96,6 +40,57 @@ img.imagenpu{
     width:100%;
     max-width:600px; 
 }
+/*body(aside)*/
+aside{
+    color:#e4d2d0;
+    
+    width: 25%;
+    float: left;
+    line-height: 25px;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+}
+
+a:link{
+    text-decoration: none;
+}
+aside section ul a.textinside:hover{
+    background: #f5eef1;
+    border-radius: 22px;
+}
+img.imginside{
+    border-radius: 22px;
+}
+img.imginside:hover{
+    transform: scale(1.55);
+}
+.aside1 {
+
+    padding: 25px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+/*body(main)*/
+
+main h1{
+    text-align: center;
+}
+main{
+    padding: 10px;
+    background: #554a4d;
+    width: 72%;
+    float: right;
+    border-radius: 22px;
+    border-style: double ;
+    border-color: rgb(14, 14, 15);
+}
+
+
+
+
+
 /* header menu */
 header{
     position:fixed;
@@ -172,6 +167,13 @@ header label:hover{
         }
     }
 /* Footer */
+img.imgss:hover{
+     transform: scale(1.55);
+}
+img.imgss{
+    border-radius: 22px;
+   
+}
 .csm{
     text-align: center;
     padding-top: 5px;
