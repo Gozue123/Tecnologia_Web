@@ -23,10 +23,31 @@
 </nav> 
 </header>
 <nav class="popupag">
-  <h1>Paginas Mas Populares</h1>
+  <h1>FORMULARIO PARA CONSULTA</h1>
   
   <div class="flex-container">
-    <div><h1>OPEN DNS</h1><BR>OpenDNS: </div>
+    <div>
+      <h4 >comentario o Sugerencia</h4>
+           <label>Escribe  una consulta o comentario sobre el tema del que trata la pagina:<br></label><textarea  name="comentarios" rows="10" cols="80">Escribe aquí tus comentarios</textarea><br>
+           <input type="button" class="btn" onclick="fechaactual()" value="Enviar Comentario o Consulta"><br>
+           <label></label><input  size="80" id="result" type="text" readonly="" disabled>  
+  
+          <script>
+          
+    
+              function fechaactual(){
+               var fecha =new Date();
+               var month = fecha.getUTCMonth()+1;
+               var day = fecha.getUTCDate();
+               var year = fecha.getUTCFullYear();
+               var minutes= fecha.getUTCMinutes();
+               var horas= fecha.getUTCHours()-4;
+               var seconds= fecha.getUTCSeconds();
+               
+               document.getElementById('result').value=("Entregado El: "+day+"/"+month+"/"+year+" A  LAS : "+horas+":"+minutes+":"+seconds);     
+              }   
+          </script>
+    </div>
    
   </div>
     <nav class="navfoo">
