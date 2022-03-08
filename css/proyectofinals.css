@@ -11,10 +11,10 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-.navfoo{
+.navfoo{/*nav de publicidad*/
 text-align: center;
 }
-img.imagend{
+img.imagend{/*imagen body*/
     padding: 10px;
     width:80%;
     border-radius: 22px;
@@ -22,19 +22,19 @@ img.imagend{
     margin:auto;
 
 }
-video.videopu:hover{
+video.videopu:hover{/*video de publicidad*/
     transform: scale(1.08);
 }
-video.videopu{
+video.videopu{ /*video de publicidad*/
     border-radius: 22px;
     padding: 10px;
     width:100%;
     max-width:600px;   
 }
-img.imagenpu:hover{
+img.imagenpu:hover{/*imagen de publicidad*/
     transform: scale(1.08);
 }
-img.imagenpu{
+img.imagenpu{/*imagen de publicidad*/
     border-radius: 22px;
     padding: 10px;
     width:100%;
@@ -52,7 +52,7 @@ aside{
     border-color: rgb(14, 14, 15);
 }
 
-a:link{
+a:link{/*links  referencias*/
     text-decoration: none;
 }
 aside section ul a.textinside:hover{
